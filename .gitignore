@@ -1,2 +1,11 @@
 # ignore bot token file
 config.json
+
+# ignore python cache folder
+cogs/__pycache__/
+
+# ignore python virtualenv folder
+invisible_bot/
+
+#ignore .vscode folder
+.vscode
