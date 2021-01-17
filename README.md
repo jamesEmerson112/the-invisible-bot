@@ -1,7 +1,9 @@
 # the-invisible-bot
+* legacy created and developed by @kirivon
 
-### A collaberative Discord bot project for The Invisible College, written in Python! Using:
-* Docker Engine - Community 18.09.0
+### A collaberative Discord bot project for The Invisible College and for SAM, written in Python! Using:
+* Docker Engine - Community 20.10.2
+* Kubernetes - 1.19.3
 * Dockerfile link from https://github.com/Gorialis/discord.py-docker
 * Discord.py:rewrite from https://github.com/Rapptz/discord.py
 * Redis.py from https://github.com/andymccurdy/redis-py
