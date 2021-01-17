@@ -1,7 +1,9 @@
 # the-invisible-bot
+* legacy created and developed by @kirivon
 
-### A collaberative Discord bot project for The Invisible College, written in Python! Using:
-* Docker Engine - Community 18.09.0
+### A collaberative Discord bot project for The Invisible College and for SAM, written in Python! Using:
+* Docker Engine - Community 20.10.2
+* Kubernetes - 1.19.3
 * Dockerfile link from https://github.com/Gorialis/discord.py-docker
 * Discord.py:rewrite from https://github.com/Rapptz/discord.py
 * Redis.py from https://github.com/andymccurdy/redis-py
@@ -22,7 +24,7 @@
 * Navigate back to the "General Information" tab and copy your client ID.
 * Create an invite link using this page: https://discordapi.com/permissions.html
 * Click the link you've created after setting desired permissions and add your bot to your server.
-* Install Docker then simply run with: docker-compose up -d
+* Install Docker then open a terminal at the project folder, then simply run with: docker-compose up -d
 * The container volume is linked to the path where the code resides, so you can make changes to the code without re-building the image.
 * Run "docker-compose restart" to update changes.
 
@@ -32,6 +34,6 @@ Alternatively, one can simply run the main.py in your Python environment of choi
 * https://docs.python.org/3/
 * https://discordpy.readthedocs.io/en/rewrite/
 * https://discordpy.readthedocs.io/en/rewrite/ext/commands/commands.html
-* https://redis-py.readthedocs.io/en/latest/
+* https://redis.io/documentation
 * https://docs.docker.com/
 * https://docs.docker.com/compose/
